@@ -132,12 +132,5 @@ void keyPressed()
     {
       showNumbers = !showNumbers;
     }
-
-    //  checks if the head hits the tail
-    for (int i = snake.size()-1; i > 0; i--)
-    {
-      if (head.x == snake.get(i).x && head.y == snake.get(i).y)
-        die();
-    }
   }
 }
